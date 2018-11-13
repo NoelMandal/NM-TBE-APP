@@ -1,9 +1,6 @@
 {
   "name": "tbe",
-  "version": "1.0.0",
-  "engines": {
-    "node": ">=4"
-  },
+  "version": "1.0.1",
   "scripts": {
     "lint": "eslint .",
     "build": "npm run less && webpack",
