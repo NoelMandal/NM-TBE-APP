@@ -8,7 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "build": "npm run less && webpack",
-    "start": "npm run build && node .",
+    "start": "npm run build && node server/server",
     "test": "npm run build && mocha --require ignore-styles test/**/**.spec.js --exit",
     "less": "lessc src/css/style.less dist/css/style.css"
   },
