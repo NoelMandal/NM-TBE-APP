@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "build": "npm run less && webpack --mode development",
+    "build": "npm run less && webpack",
     "start": "node .",
     "test": "npm run build && mocha --require ignore-styles test/**/**.spec.js --exit",
     "less": "lessc src/css/style.less dist/css/style.css"
@@ -41,7 +41,6 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.0-beta.6",
-    "dotenv": "^6.1.0",
     "chai": "^4.2.0",
     "chai-http": "^4.2.0",
     "eslint": "^3.17.1",
